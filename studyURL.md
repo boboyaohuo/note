@@ -6,5 +6,5 @@
 
 4.div模拟input http://blog.csdn.net/qq_36671474/article/details/68064132
 
-5.Editor http://www.wangeditor.com/
+5.Editor http://www.wangeditor.com/<a _target="blank" href="http://www.wangeditor.com/">haha</a>
 
