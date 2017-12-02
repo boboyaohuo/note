@@ -8,3 +8,4 @@
 
 5.Editor http://www.wangeditor.com/
 
+6.jquery http://jquery.cuishifeng.cn/
