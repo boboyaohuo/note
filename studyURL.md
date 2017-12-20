@@ -17,3 +17,5 @@
 9.checkbox http://www.cnblogs.com/0201zcr/p/4704468.html
 
 10.小程序开发组件 http://www.xcxwo.com/
+
+11.vue脱坑记 https://juejin.im/post/59fa9257f265da43062a1b0e?utm_source=weibo&utm_campaign=admin
