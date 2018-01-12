@@ -21,3 +21,5 @@
 11.vue脱坑记 https://juejin.im/post/59fa9257f265da43062a1b0e?utm_source=weibo&utm_campaign=admin
 
 12.html2canvas https://html2canvas.hertzen.com/
+
+13.小程序ios/安卓坑 https://www.cnblogs.com/daxiongblog/p/7029218.html?utm_source=itdadao&utm_medium=referral
