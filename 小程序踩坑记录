@@ -1,0 +1,7 @@
+1.ios端fixed与下拉刷新冲突
+
+2.scroll-view与下拉刷新冲突
+
+3.下拉刷新在真机上失效"enablePullDownRefresh": "true",去掉true的引号，变成boolean类型
+
+4.对于button的边框设置，要放在::after里面设置，才生效，要不然会出现各种怪异现象
