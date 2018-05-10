@@ -53,3 +53,5 @@
 27.css字体库 https://www.youziku.com/
 
 28.Sortable http://rubaxa.github.io/Sortable/
+
+29.colorPicker http://www.eyecon.ro/bootstrap-colorpicker/
