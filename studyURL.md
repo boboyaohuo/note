@@ -57,3 +57,5 @@
 29.colorPicker http://www.eyecon.ro/bootstrap-colorpicker/
 
 30.jqueryMinicolor http://www.jq22.com/demo/jquery-minicolors-master/
+
+
