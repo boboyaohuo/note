@@ -58,4 +58,3 @@
 
 30.jqueryMinicolor http://www.jq22.com/demo/jquery-minicolors-master/
 
-
