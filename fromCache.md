@@ -28,4 +28,3 @@ header("Pragma: no-cache"); // HTTP 1.0.
 header("Expires: 0"); // Proxies.
 
 使用缓存有利于加快页面加载速度和减少资源消耗，你应该根据具体情况调整缓存策略。
-
