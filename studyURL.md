@@ -65,3 +65,4 @@
 33.bootcdn https://www.bootcdn.cn/
 
 34.device https://www.mydevice.io/
+
