@@ -62,7 +62,7 @@
 
 32.印记中文 https://docschina.org/
 
-33.bootcdn https://www.bootcdn.cn/
+33.bootcdn https://www.bootcdn.cn/（已死）
 
 34.device https://www.mydevice.io/
 
