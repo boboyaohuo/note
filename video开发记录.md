@@ -2,7 +2,7 @@
 
 - **兼容问题（Android，iOS）**
     
-    安卓上可以自定义controls，iOS不全屏可以使用自定义controls，全屏会使用iOS系统视频播放器（所有app），想要在iOS app中不全屏播放，需要iOS app进行参数设置
+    安卓上可以自定义controls，iOS不全屏可以使用自定义controls，全屏会使用iOS系统视频播放器（所有app），想要在iOS app中不全屏播放，需要iOS app进行参数设置webview.allowsInlineMediaPlayback = YES;
     
 - **iOS10以下系统 只有点击播放后会触发onload()、canplay()事件**读取文件加载
 
