@@ -11,12 +11,14 @@
 - `Vue`：[mobx-vue](https://www.npmjs.com/package/mobx-vue)
 - `React`：[mobx-react](https://www.npmjs.com/package/mobx-react)
 
-- `Wx`小程序：[mobx-miniprogram](https://www.npmjs.com/package/mobx-miniprogram)
+- `Wx`小程序：[mobx-miniprogram-bindings](https://www.npmjs.com/package/mobx-miniprogram-bindings)
 - `Angular`：[mobx-angular](https://www.npmjs.com/package/mobx-angular)
 
 ### store
 
 在`mobx`的版本选择一致的前提下，`store`文件是可以公用的
+
+> 因为小程序的库是forked原始库之后进行了修改，所以store的引用需要兼容处理（在最后说）
 
 ```typescript
 // store.ts
