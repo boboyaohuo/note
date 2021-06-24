@@ -18,7 +18,7 @@
 
 在`mobx`的版本选择一致的前提下，`store`文件是可以公用的
 
-> 因为小程序的库是forked原始库之后进行了修改，所以store的引用需要兼容处理（在最后说）
+> 因为小程序的`mobx`库是forked原始库之后进行了修改，所以小程序对`mobx`的引用需要使用webpack的`alias`别名兼容处理
 
 ```typescript
 // store.ts
@@ -159,48 +159,3 @@ Component({
 
 > 小程序中使用时，需注意 **数据** 和 **方法** 字段，重复的话`data`里的数据会被`mobx`替换掉
 
-
-
-## 兼容方案
-
-Store
-
-```typescript
-export default class Store {
-    constructor(action) {
-        return {
-            age: 0,
-        
-            get computedAge() {
-                return this.age + 18;
-            },
-        
-            setAge: action(function(number) {
-                this.age = number; // TODO this类型有问题
-            })
-        }
-    }
-}
-```
-
-h5
-
-```typescript
-import { action, observable } from 'mobx';
-import Store from './index'
-
-const store = observable(new Store(action))
-
-export default store
-```
-
-小程序
-
-```typescript
-import { action, observable } from 'mobx-miniprogram';
-import Store from './index'
-
-const store = observable(new Store(action))
-
-export default store
-```
